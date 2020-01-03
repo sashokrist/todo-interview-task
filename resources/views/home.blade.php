@@ -8,11 +8,8 @@
                 <div class="card-header">Dashboard</div>
 
                 <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+                    <a href="{{ route('tasks.index') }}" class="btn btn-primary">Tasks</a>
+                    <a href="{{ route('tasks.create') }}" class="btn btn-primary">Create Task</a>
 
                     You are logged in!
                 </div>
