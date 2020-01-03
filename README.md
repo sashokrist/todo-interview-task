@@ -8,7 +8,7 @@
 </p>
 
 ## todo interview task
-1. git clone
+1. git clone git@github.com:sashokrist/todo-interview-task.git
 2. composer install
 3. cp .env.example .env
 4. php artisan key:generate
